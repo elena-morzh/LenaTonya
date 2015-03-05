@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">     
+  <title>Главная страница</title>
+  <style>
+		body {
+			font-family: Tahoma;
+			font-size: 18px;
+			background: #CD919E;
+		}
+	</style>
+ </head>
+ 
+ <style>
+ header {
+    background: #BA55D3;
+    height: 105px; 
+	color: #fff;
+   }
+ 
+ aside  {
+    background: #DDA0DD;
+    padding: 10px;
+    width: 300px;
+    float: left;
+   }
+  article {
+    background: #DDA0DD;
+    margin-left: 1500px;
+    display: block;
+   }
+ </style>
+ 
+ 
+ 
+ <header>
+ <div>
+  <center><b><img alt="Как похудеть?"></b></center>
+ </div>
+ 
+ <style>
+   ul.hr {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+   }
+   ul.hr li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    padding: 3px; /* Поля вокруг текста */
+   }
+  </style>
+ </head>
+ <body>
+ 
+   
+  <ul class="hr">
+  <li><button>О авторах</button></li>
+  <li><button>Форум</button></li>
+  </ul>
+  
+ </body>
+ 
+ </header>
+ 
+ <body>
+  <aside>
+   <body>
+    <ul>
+     <li><p><a href="http://100dieta.ru/"> Диеты </a></p></li>
+     <li><p><a href="http://bodymap.ru"> Тренировки</a></p></li>
+	</ul>
+   </body>
+  </aside>
+  
+  <article>
+   <center><form method="post">
+		<div>
+			<div>
+			<input  type="text" name="Ves" placeholder="Вес" />
+			</div>
+			<br>
+			<div>
+			<input type="text"  name="Rost" placeholder="Рост" />
+			</div>
+		</div>
+		<br>
+		<div>
+			<input type="submit" value="Рассчитать" name="Rass" />
+		</div>
+		
+		
+	</form></center>
+   </article>
+ </body> 
+
+</html>
